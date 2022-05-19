@@ -12,6 +12,8 @@ The extension is inspired by [Simply Workspaces](https://github.com/andyrichards
 
 ## Installation
 
+The easiest way to get started is by getting this from the [Gnome Extensions site](https://extensions.gnome.org/extension/5081/simple-indication-of-workspaces).
+
 ### Manual installation
 
 System installation
