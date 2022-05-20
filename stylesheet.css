@@ -1,17 +1,17 @@
 .workspace-layout {
-  margin: 0 0.5em;
+    margin: 0 0.5em;
 }
 
 .workspace-indicator {
-  padding: 0 0.3em;
-  color: #888;
+    padding: 0 0.3em;
+    color: #888;
 }
 
 .workspace-indicator.active {
-  color: #fff;
+    color: #fff;
 }
 
 .workspace-indicator:hover {
-  color: #fff;
-  border-top: 2px solid #fff;
+    border-top: 2px solid #fff;
+    margin-bottom: 2px;
 }
