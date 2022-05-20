@@ -4,5 +4,5 @@
   "description": "Workspace indication with an i3/polybar style.",
   "shell-version": ["42"],
   "url": "https://github.com/azate/simple-indication-of-workspaces",
-  "version": 1
+  "version": 2
 }
