@@ -2,7 +2,7 @@
   "uuid": "this.simple-indication-of-workspaces@azate.email",
   "name": "Simple indication of workspaces",
   "description": "Workspace indication with an i3/polybar style.",
-  "shell-version": ["42", "43"],
+  "shell-version": ["44"],
   "url": "https://github.com/azate/simple-indication-of-workspaces",
-  "version": 3
+  "version": 4
 }

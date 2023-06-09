@@ -2,10 +2,9 @@
 
 const Main = imports.ui.main;
 const WorkspaceManager = global.workspace_manager;
-const {Display} = imports.gi.Meta;
 const {St} = imports.gi;
 
-const getPrimaryMonitor = () => new Display().get_primary_monitor();
+const getPrimaryMonitor = () => global.display.get_primary_monitor();
 const getCurrentTime = () => global.get_current_time();
 const getActiveWorkspace = () => WorkspaceManager.get_active_workspace();
 const getWorkspacesQuantity = () => WorkspaceManager.get_n_workspaces();
@@ -65,7 +64,6 @@ class WorkspaceIndicator {
         this._workspace = null;
     }
 }
-
 
 class WorkspaceIndicatorsManager {
     constructor() {
